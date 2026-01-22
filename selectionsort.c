@@ -30,7 +30,7 @@ void selectionsortasc(int list[], int length) {
 void selectionsortdesc(int list[], int length) {
   for (int i = 0; i < length; i++) {
     int largest_idx = i;
-    for (int j = i; j < length; j++) {
+    for (int j = i + 1; j < length; j++) {
       if (list[j] > list[largest_idx]) {
         largest_idx = j;
       }
