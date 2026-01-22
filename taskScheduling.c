@@ -57,7 +57,7 @@ int main() {
 }
 
 void selectionSortdesc(tsk list[], int length) {
-  for (int i = 0; i < length; i++) {
+  for (int i = 0; i < length - 1; i++) {
     int largest_idx = i;
     for (int j = i + 1; j < length; j++) {
       if (list[j].profit > list[largest_idx].profit) {
