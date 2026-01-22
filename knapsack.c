@@ -11,8 +11,7 @@ typedef struct Item {
 void bubblesortdesc(it arr[], int length);
 
 int main() {
-  it items[] = {{15, 3, 0}, {5, 4, 0},  {20, 6, 0}, {8, 8, 0},
-                {7, 2, 0},  {20, 2, 0}, {6, 3, 0}};
+  it items[] = {{20, 4, 0}, {30, 8, 0}, {40, 10, 0}, {32, 12, 0}, {55, 15, 0}};
   int length = sizeof(items) / sizeof(items[0]);
   int capacity = 18;
   float totalProfit = 0.0f;
